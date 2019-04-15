@@ -7,5 +7,5 @@ cloud:
       auto: false
       static: ap-northeast-1
 rds:
-  identifier: mynavi-sample-db
-  password: postgresql
+  identifier:  ${RDS_IDENTIFIER:mynavi-sample-db}
+  password: ${RDS_PASSWORD:postgresql}

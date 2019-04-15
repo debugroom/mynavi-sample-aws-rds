@@ -18,16 +18,7 @@ public class SampleServiceImpl implements SampleService{
     UserRepository userRepository;
 
     @Autowired
-    AddressRepository addressRepository;
-
-    @Autowired
-    EmailRepository emailRepository;
-
-    @Autowired
     GroupRepository groupRepository;
-
-    @Autowired
-    MembershipRepository membershipRepository;
 
     @Override
     public void init(){
